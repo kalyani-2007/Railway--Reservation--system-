@@ -25,6 +25,7 @@ def book_ticket():
     name = input("Enter Name: ")
     age = input("Enter Age: ")
 
+
     seat_number = seats.pop(0)
 
     booking_id = "B" + str(booking_id_counter)
